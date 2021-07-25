@@ -12,6 +12,16 @@
       ]"
     ></LinkPanel>
 
+    <HdgL2>Github</HdgL2>
+    <LinkListBlank
+      :items="[
+        {
+          txt: '集英社コミック検索アプリ',
+          url: 'https://github.com/ytk-biz/vue-books',
+        },
+      ]"
+    ></LinkListBlank>
+
     <HdgL2>このアプリの主な仕様</HdgL2>
     <HdgL3>主な使用技術</HdgL3>
     <LinkListBlank

@@ -129,8 +129,6 @@ export default {
   }
 
   @include mq {
-    height: 32px;
-
     input[type="text"] {
       padding: 5px 50px 5px 10px;
     }
@@ -139,7 +137,7 @@ export default {
       width: 40px;
 
       &::before {
-        top: 8px;
+        top: 11px;
         left: 12px;
         width: 14px;
         height: 14px;
@@ -147,7 +145,7 @@ export default {
 
       &::after {
         height: 8px;
-        top: 18px;
+        top: 21px;
         left: 25px;
       }
     }

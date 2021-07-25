@@ -74,11 +74,5 @@ export default {
       }
     }
   }
-
-  @include mq {
-    ol li {
-      font-size: 1rem;
-    }
-  }
 }
 </style>

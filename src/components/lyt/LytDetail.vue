@@ -132,12 +132,7 @@ export default {
         font-size: 2rem;
       }
 
-      .author {
-        font-size: 1.2rem;
-      }
-
       .stock {
-        font-size: 1.2rem;
         margin-bottom: 16px;
       }
 
@@ -150,7 +145,6 @@ export default {
       }
 
       .shipping {
-        font-size: 1.2rem;
         margin-bottom: 28px;
       }
 

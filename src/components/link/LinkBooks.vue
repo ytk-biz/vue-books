@@ -155,7 +155,6 @@ export default {
         width: 50%;
 
         a {
-          font-size: 1.2rem;
           padding: 12px;
 
           .img {
