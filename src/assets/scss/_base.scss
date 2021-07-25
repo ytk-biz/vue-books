@@ -1,0 +1,157 @@
+@use "utility/_utility" as *;
+
+/**
+ * base
+ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  border: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  position: relative;
+  text-size-adjust: 100%;
+  overflow-y: scroll;
+}
+
+body {
+  background: $white;
+  color: $black;
+  display: flex;
+  flex-direction: column;
+  font-family: $fontBase;
+  font-weight: 500;
+  font-size: 1.4rem;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+svg,
+picture {
+  display: block;
+}
+
+a,
+button,
+select,
+input[type="radio"],
+input[type="checkbox"] {
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: $bule;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="password"],
+textarea,
+label {
+  color: inherit;
+  font: inherit;
+  cursor: text;
+}
+
+button {
+  background: none;
+}
+
+button,
+select,
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+  appearance: none;
+  border-radius: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th,
+dt {
+  font-weight: normal;
+}
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: normal;
+}
+
+strong {
+  font-weight: bold;
+  font-style: normal;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+sup,
+sub {
+  font-size: 0.5em;
+}
+
+sup {
+  vertical-align: top;
+}
+
+sub {
+  vertical-align: bottom;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+p {
+  margin: 0;
+}

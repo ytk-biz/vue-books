@@ -1,0 +1,29 @@
+@use "_variable" as *;
+
+/**
+ * mixin
+ */
+
+@mixin mq($width: $sp) {
+  @media only screen and (max-width: $width) {
+    @content;
+  }
+}
+
+@mixin hover() {
+  &:hover,
+  &:active,
+  &:focus {
+    @content;
+  }
+}
+
+@mixin reset-margin {
+  > :first-child {
+    margin-top: 0 !important;
+  }
+
+  > :last-child {
+    margin-bottom: 0 !important;
+  }
+}
